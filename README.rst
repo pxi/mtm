@@ -94,14 +94,14 @@ indicated by the location of the cursor.
 The following commands are recognized in mtm, when preceded by the command
 prefix (by default *ctrl-g*):
 
-Up/Down/Left/Right Arrow
-    Focus the virtual terminal above/below/to the left of/to the right of
+h / j / k / l
+    Focus the virtual terminal to the left of/below/above/to the right of
     the currently focused terminal.
 
 o
     Focus the previously-focused virtual terminal.
 
-h / v
+g / f
     Split the focused virtual terminal in half horizontally/vertically,
     creating a new virtual terminal to the right/below.  The new virtual
     terminal is focused.
@@ -112,7 +112,7 @@ w
     once all virtual terminals are closed.  Virtual terminals will also
     close if the program started inside them exits.
 
-l
+r
     Redraw the screen.
 
 PgUp/PgDown/End
