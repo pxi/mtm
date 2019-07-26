@@ -98,7 +98,7 @@ h / j / k / l
     Focus the virtual terminal to the left of/below/above/to the right of
     the currently focused terminal.
 
-o
+b
     Focus the previously-focused virtual terminal.
 
 g / f
@@ -115,7 +115,7 @@ w
 r
     Redraw the screen.
 
-PgUp/PgDown/End
+o / i / End
     Scroll the screen back/forward half a screenful, or recenter the
     screen on the actual terminal.
 

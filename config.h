@@ -41,7 +41,7 @@
 #define MOVE_DOWN       KEY(L'j')
 #define MOVE_RIGHT      KEY(L'l')
 #define MOVE_LEFT       KEY(L'h')
-#define MOVE_OTHER      KEY(L'o')
+#define MOVE_OTHER      KEY(L'b')
 
 /* The split terminal keys. */
 #define HSPLIT KEY(L'g')
@@ -54,8 +54,8 @@
 #define REDRAW KEY(L'r')
 
 /* The scrollback keys. */
-#define SCROLLUP CODE(KEY_PPAGE)
-#define SCROLLDOWN CODE(KEY_NPAGE)
+#define SCROLLUP KEY(L'o')
+#define SCROLLDOWN KEY(L'i')
 #define RECENTER CODE(KEY_END)
 
 /* The path for the wide-character curses library. */
