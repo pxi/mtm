@@ -5,7 +5,7 @@ HEADERS   ?= -I/usr/local/opt/ncurses/include
 LIBPATH   ?= -L/usr/local/opt/ncurses/lib
 DESTDIR   ?= /usr/local
 MANDIR    ?= $(DESTDIR)/man/man1
-CURSESLIB ?= ncurses
+CURSESLIB ?= ncursesw
 LIBS      ?= -l$(CURSESLIB) -lutil
 
 all: mtm
