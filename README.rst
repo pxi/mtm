@@ -58,6 +58,15 @@ Installation and configuration is fairly simple:
   whichever works for you.
 - Run `make install` if desired.
 
+MacOS specific installation
+---------------------------
+MacOS comes with too old ncurses. I use Homebrew to install a more
+recent version::
+
+    brew install ncurses
+
+I also customized Makefile to use the installed version.
+
 Usage
 =====
 
