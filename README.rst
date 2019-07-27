@@ -115,7 +115,7 @@ w
 r
     Redraw the screen.
 
-o / i / End
+K / J / End
     Scroll the screen back/forward half a screenful, or recenter the
     screen on the actual terminal.
 

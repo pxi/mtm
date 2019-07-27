@@ -54,8 +54,8 @@
 #define REDRAW KEY(L'r')
 
 /* The scrollback keys. */
-#define SCROLLUP KEY(L'o')
-#define SCROLLDOWN KEY(L'i')
+#define SCROLLUP KEY(L'K')
+#define SCROLLDOWN KEY(L'J')
 #define RECENTER CODE(KEY_END)
 
 /* The path for the wide-character curses library. */
