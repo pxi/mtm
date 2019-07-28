@@ -129,6 +129,8 @@ Screenshots
 
 .. image:: screenshot.png
 .. image:: screenshot2.png
+.. image:: vttest1.png
+.. image:: vttest2.png
 
 Compatibility
 =============
